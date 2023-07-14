@@ -1,0 +1,36 @@
+https://developer.android.com/develop/ui/views/layout/webapps/webview
+
+file
+close project
+
+//agregar webview
+<WebView
+    android:id="@+id/webview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+/>
+
+//importar el webview
+import android.webkit.WebView;
+
+//juntar el webview con el activity.xml
+WebView myWebView = (WebView) findViewById(R.id.webview);
+
+//agregar webview oncreate
+
+
+// agregar url
+myWebView.loadUrl("https://www.example.com");
+
+// esta es la pantalla principal
+setContentView(R.layout.activity_main);
+
+
+
+
+
+
+
+
+
+
